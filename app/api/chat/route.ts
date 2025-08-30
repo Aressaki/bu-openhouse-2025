@@ -5,30 +5,30 @@ type Msg = { role: "user" | "assistant"; content: string };
 
 // User data for personalized responses
 const userData = {
-  name: "",
-  fullName: "",
-  role: "",
+  name: "ซี",
+  fullName: "ศุกลวัฒน์ ยี่สุ่นแก้ว",
+  role: "นักเรียน",
   skills: [
-    " ", " ", " ", " ", " ", 
+    "แข่งอาโอวี", "นักแข่งโรบล็อค", "ชอบเล่นเกม", "ชอบนอน", "ชอบเรดเมจิก", 
   ],
   education: [
     {
-      school: " ",
-      degree: " ",
+      school: "VRM",
+      degree: "M.5",
       period: " ",
       description: " "
     },
   ],
   location: "Thailand",
-  interests: [" ", " ", " ", " "],
+  interests: ["เรดเมจิก", "อนิเมะเรื่องบลีช", "โทรศัพท์", "เกมผี"],
   projects: [
     " ",
     " ",
     " "
   ],
   contact: {
-    email: "your.email@example.com",
-    phone: "+66 XX XXX XXXX",
+    email: "rcbt8r5555@gmail.com",
+    phone: "+66 99 348 3443",
     website: " ",
     github: " ",
     linkedin: " "
@@ -36,7 +36,7 @@ const userData = {
 };
 
 // System prompt for the AI assistant
-const systemPrompt = ` Your Name is "Shiro" , You are my personal AI assistant representing their professional portfolio. 
+const systemPrompt = ` Your Name is "RedMagic" , You are my personal AI assistant representing their professional portfolio. 
 
 ABOUT ME:
 - Name: ${userData.fullName}
